@@ -66,6 +66,7 @@ a {
   height: 100%;
   margin: 0 auto;
   align-items: center;
+  justify-content: space-between;
 }
 
 .nav {
@@ -91,6 +92,7 @@ a {
 .nav-list {
   display: flex;
   gap: 40px;
+  margin-left: 76px;
 }
 
 .nav-link {
