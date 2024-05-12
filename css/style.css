@@ -278,7 +278,6 @@ ul {
 .team-card-socials-item {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-card-socials-link {
@@ -289,6 +288,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-card-socials-link:hover {
@@ -423,6 +423,10 @@ ul {
 }
 
 .footer-socials-link:hover {
+  background-color: #31d0aa;
+}
+
+.footer-socials-link:focus {
   background-color: #31d0aa;
 }
 
