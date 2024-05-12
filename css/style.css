@@ -252,6 +252,8 @@ ul {
   background-color: #ffffff;
   width: calc((100%-72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-card {
@@ -265,6 +267,39 @@ ul {
 
 .team-card-text {
   text-align: center;
+}
+
+.team-card-socials {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.team-card-socials-item {
+  width: 40px;
+  height: 40px;
+}
+
+.team-card-socials-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-card-socials-link:hover {
+  background-color: #404bbf;
+}
+
+.team-card-socials-link:focus {
+  background-color: #404bbf;
+}
+
+.team-card-socials-icon {
+  fill: #f4f4fd;
 }
 
 /* FOURTH SECTION */
