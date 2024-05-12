@@ -70,8 +70,10 @@ ul {
 .nav-list {
   display: flex;
   gap: 40px;
+}
+
+.studio {
   position: relative;
-  color: #404bbf;
 }
 
 .nav-link {
